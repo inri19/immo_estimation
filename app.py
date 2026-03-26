@@ -7,6 +7,7 @@ from datetime import datetime
 import os
 
 st.set_page_config(page_title="EstimIA", layout="centered")
+DB_URL = st.secrets["DB_URL"]
 
 # -----------------------------
 # FUNCTIONS
